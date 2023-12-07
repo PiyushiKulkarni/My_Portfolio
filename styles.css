@@ -21,8 +21,8 @@ p{
 /* Add your existing CSS styles here */
 
 nav {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #086674;
     padding: 10px 0;
 }
 
@@ -48,8 +48,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #086674; /* Updated hover color */
-    background-color: #fff; /* Add a background color on hover if desired */
+    color: #ffffff; /* Updated hover color */
+    background-color: #086674; /* Add a background color on hover if desired */
 }
 #navLinks ul {
     list-style: none;
@@ -64,7 +64,7 @@ nav a:hover {
 
 #navLinks a {
     text-decoration: none;
-    color: #fff;
+    color:#086674;
     font-weight: bold;
     font-size: 1.2em;
     transition: color 0.3s ease;
@@ -80,7 +80,7 @@ nav a:hover {
     }
 
     #menuToggle.active {
-        background-color: #555;
+        background-color: #086674;
     }
 
     #navLinks ul {
