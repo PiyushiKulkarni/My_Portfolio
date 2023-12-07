@@ -18,45 +18,91 @@ body {
 p{
     font-size: 15px;
 }
-.nav-container{
-    padding-right: 90px;
-    padding-left: 30px;
-    margin-top: 25px;
-}
+/* Add your existing CSS styles here */
+
 nav {
-    background-color: white;
-    color:#086674;
+    background-color: #333;
+    color: #fff;
     padding: 10px 0;
-    justify-content: flex-end;
 }
 
-nav ul {
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menuToggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+nav a {
+    text-decoration: none;
+    color: #086674; /* Updated link color */
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #086674; /* Updated hover color */
+    background-color: #fff; /* Add a background color on hover if desired */
+}
+#navLinks ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
 }
 
-nav li {
-    margin-left: 20px; /* Adjust margin for spacing between items */
+#navLinks li {
+    margin-left: 20px;
 }
 
-nav a {
+#navLinks a {
     text-decoration: none;
-    color: #086674;
+    color: #fff;
     font-weight: bold;
     font-size: 1.2em;
     transition: color 0.3s ease;
-    padding: 10px 15px; /* Add padding to the left and right */
-    border-radius: 5px; /* Add rounded corners */
 }
 
-nav a:hover {
-    color: white;
-    background-color: #236c78;
-    border-radius: 5px;
+@media only screen and (max-width: 768px) {
+    #navLinks {
+        display: none;
+    }
+
+    #menuToggle {
+        display: block;
+    }
+
+    #menuToggle.active {
+        background-color: #555;
+    }
+
+    #navLinks ul {
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    #navLinks li {
+        margin: 0;
+        text-align: center;
+    }
+
+    #navLinks a {
+        display: block;
+        padding: 10px;
+    }
 }
+
 
 
 header {
