@@ -1,0 +1,293 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Add your existing CSS styles here */
+
+/* Add your existing CSS styles here */
+
+p{
+    font-size: 15px;
+}
+.nav-container{
+    padding-right: 90px;
+    padding-left: 30px;
+    margin-top: 25px;
+}
+nav {
+    background-color: white;
+    color:#086674;
+    padding: 10px 0;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+nav li {
+    margin-left: 20px; /* Adjust margin for spacing between items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #086674;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+    padding: 10px 15px; /* Add padding to the left and right */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+nav a:hover {
+    color: white;
+    background-color: #236c78;
+    border-radius: 5px;
+}
+
+
+header {
+    background-color: white;
+    color:#086674 ;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+.profile-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+   box-shadow: none;
+   
+}
+.about-text{
+    text-align: center;
+    color: white;
+}
+.about-container{
+
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #086674;
+}
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #086674;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #086674;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+/* Add your existing CSS styles here */
+
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-info {
+    padding: 15px;
+}
+
+.project-info h3 {
+    margin-top: 0;
+}
+
+.project-info p {
+    font-size: 0.9em;
+}
+
+.project-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #086674;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-info a:hover {
+    background-color: #555;
+}
+/* Add your existing CSS styles here */
+
+.skill-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.skill-card:hover {
+    transform: scale(1.02);
+}
+
+.skill-card h3 {
+    background-color: #086674;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+
+.skill-card p {
+    padding: 15px;
+    margin: 0;
+}
+
+/* Add your existing CSS styles here */
+
+/* Add your existing CSS styles here */
+
+#resume {
+    background-color: #086674;
+    padding: 40px 0;
+    text-align: center; /* Center text and inline elements */
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the container horizontally */
+}
+
+.resume-image {
+    margin-bottom: 20px;
+}
+
+.resume-image img {
+    width: 150px; /* Adjust the size of the floating image */
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.resume-image img:hover {
+    transform: scale(1.1); /* Add a slight zoom effect on hover */
+}
+
+/* Add your existing CSS styles here */
+
+#contact {
+    background-color: #086674;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-info p {
+    margin: 15px 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #555;
+}
+#goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #56949e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#goToTopBtn:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #086674;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
